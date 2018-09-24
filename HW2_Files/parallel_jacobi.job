@@ -1,0 +1,21 @@
+#BSUB -n 64 -R 'select[nxt] rusage[mem=1024] span[ptile=4]' -M 1024
+#BSUB -J parallel_jacobi -o output.%J -L /bin/bash -W 0:30
+##
+##BSUB -W hh:mm                  # sets job's runtime wall-clock limit in hours:minutes or just minutes (-mm).
+##BSUB -n NNN                    # NNN: total number of cores/jobslots to allocate for the job
+##BSUB -R "span[ptile=XX]"       # XX:  number of cores/jobslots per node to use. Also, a node selection criterion
+##BSUB -R "select[node-type]"    # node-type: nxt, mem256gb, gpu, phi, mem1t, mem2t ...
+##BSUB -R "rusage[mem=nnn]"      # reserves nnn MBs per process/CPU for the job
+##BSUB -M mm                     # sets the per process enforceable memory limit to nnn MB
+##
+## <--- at this point the current working directory is the one you submitted the job from.
+##
+module load intel       # load Intel software stack 
+#
+mpirun -np 1 ./parallel_jacobi_2d_laplace.exe 64 64 1 1
+mpirun -np 2 ./parallel_jacobi_2d_laplace.exe 64 64 2 1
+mpirun -np 4 ./parallel_jacobi_2d_laplace.exe 64 64 2 2
+mpirun -np 8 ./parallel_jacobi_2d_laplace.exe 64 64 4 2
+mpirun -np 16 ./parallel_jacobi_2d_laplace.exe 64 64 4 4
+mpirun -np 16 ./parallel_jacobi_2d_laplace.exe 64 64 16 1
+

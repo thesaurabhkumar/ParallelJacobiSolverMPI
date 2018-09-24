@@ -1,0 +1,431 @@
+Mesh (NxM): 1026 x 1026	 Processor grid (px x py): 1 x 1
+Proc-grid (1 x 1), my_id = 0, (row,col)=(0,0) neighbors:(-1, -1, -1, -1) Mesh Global:1026 x 1026, Local:1026 x 1026
+Entering jacobi; iterations = 0, error norm = 2.500000e-01
+jacobi: iterations = 10, error norm = 2.156258e-02
+jacobi: iterations = 20, error norm = 1.148877e-02
+jacobi: iterations = 30, error norm = 7.825633e-03
+jacobi: iterations = 40, error norm = 5.856636e-03
+jacobi: iterations = 50, error norm = 4.751460e-03
+jacobi: iterations = 60, error norm = 3.945221e-03
+jacobi: iterations = 70, error norm = 3.411966e-03
+jacobi: iterations = 80, error norm = 2.979695e-03
+jacobi: iterations = 90, error norm = 2.658070e-03
+jacobi: iterations = 100, error norm = 2.397062e-03
+jacobi: iterations = 110, error norm = 2.173048e-03
+jacobi: iterations = 120, error norm = 1.999677e-03
+jacobi: iterations = 130, error norm = 1.847977e-03
+jacobi: iterations = 140, error norm = 1.713040e-03
+jacobi: iterations = 150, error norm = 1.601436e-03
+jacobi: iterations = 160, error norm = 1.503695e-03
+jacobi: iterations = 170, error norm = 1.414632e-03
+jacobi: iterations = 180, error norm = 1.334154e-03
+jacobi: iterations = 190, error norm = 1.266784e-03
+jacobi: iterations = 200, error norm = 1.204320e-03
+jacobi: iterations = 210, error norm = 1.146378e-03
+jacobi: iterations = 220, error norm = 1.093055e-03
+jacobi: iterations = 230, error norm = 1.047330e-03
+jacobi: iterations = 240, error norm = 1.004373e-03
+jacobi: iterations = 250, error norm = 9.640058e-04
+jacobi: iterations = 260, error norm = 9.260519e-04
+jacobi: iterations = 270, error norm = 8.923459e-04
+jacobi: iterations = 280, error norm = 8.612421e-04
+jacobi: iterations = 290, error norm = 8.317252e-04
+jacobi: iterations = 300, error norm = 8.037063e-04
+jacobi: iterations = 310, error norm = 7.770989e-04
+jacobi: iterations = 320, error norm = 7.535083e-04
+jacobi: iterations = 330, error norm = 7.311404e-04
+jacobi: iterations = 340, error norm = 7.097479e-04
+jacobi: iterations = 350, error norm = 6.892841e-04
+jacobi: iterations = 360, error norm = 6.697033e-04
+jacobi: iterations = 370, error norm = 6.518715e-04
+jacobi: iterations = 380, error norm = 6.351107e-04
+jacobi: iterations = 390, error norm = 6.189824e-04
+jacobi: iterations = 400, error norm = 6.034607e-04
+jacobi: iterations = 410, error norm = 5.885201e-04
+jacobi: iterations = 420, error norm = 5.742296e-04
+jacobi: iterations = 430, error norm = 5.612699e-04
+jacobi: iterations = 440, error norm = 5.487379e-04
+jacobi: iterations = 450, error norm = 5.366184e-04
+jacobi: iterations = 460, error norm = 5.248966e-04
+jacobi: iterations = 470, error norm = 5.135578e-04
+jacobi: iterations = 480, error norm = 5.026550e-04
+jacobi: iterations = 490, error norm = 4.926836e-04
+jacobi: iterations = 500, error norm = 4.830019e-04
+jacobi: iterations = 510, error norm = 4.736009e-04
+Exiting jacobi; iterations = 512, error norm = 4.717537e-04
+ Mesh Global:1026 x 1026, Local:1026 x 1026, Total time = 3.362511
+Proc 0 writing to OUTPUT 
+Mesh (NxM): 1026 x 1026	 Processor grid (px x py): 1 x 2
+Proc-grid (1 x 2), my_id = 0, (row,col)=(0,0) neighbors:(-1, -1, 1, -1) Mesh Global:1026 x 1026, Local:1026 x 513
+Proc-grid (1 x 2), my_id = 1, (row,col)=(1,0) neighbors:(-1, -1, -1, 0) Mesh Global:1026 x 1026, Local:1026 x 513
+Entering jacobi; iterations = 0, error norm = 2.500000e-01
+jacobi: iterations = 10, error norm = 2.156258e-02
+jacobi: iterations = 20, error norm = 1.148877e-02
+jacobi: iterations = 30, error norm = 7.825633e-03
+jacobi: iterations = 40, error norm = 5.856636e-03
+jacobi: iterations = 50, error norm = 4.751460e-03
+jacobi: iterations = 60, error norm = 3.945221e-03
+jacobi: iterations = 70, error norm = 3.411966e-03
+jacobi: iterations = 80, error norm = 2.979695e-03
+jacobi: iterations = 90, error norm = 2.658070e-03
+jacobi: iterations = 100, error norm = 2.397062e-03
+jacobi: iterations = 110, error norm = 2.173048e-03
+jacobi: iterations = 120, error norm = 1.999677e-03
+jacobi: iterations = 130, error norm = 1.847977e-03
+jacobi: iterations = 140, error norm = 1.713040e-03
+jacobi: iterations = 150, error norm = 1.601436e-03
+jacobi: iterations = 160, error norm = 1.503695e-03
+jacobi: iterations = 170, error norm = 1.414632e-03
+jacobi: iterations = 180, error norm = 1.334154e-03
+jacobi: iterations = 190, error norm = 1.266784e-03
+jacobi: iterations = 200, error norm = 1.204320e-03
+jacobi: iterations = 210, error norm = 1.146378e-03
+jacobi: iterations = 220, error norm = 1.093055e-03
+jacobi: iterations = 230, error norm = 1.047330e-03
+jacobi: iterations = 240, error norm = 1.004373e-03
+jacobi: iterations = 250, error norm = 9.640058e-04
+jacobi: iterations = 260, error norm = 9.260519e-04
+jacobi: iterations = 270, error norm = 8.923459e-04
+jacobi: iterations = 280, error norm = 8.612421e-04
+jacobi: iterations = 290, error norm = 8.317252e-04
+jacobi: iterations = 300, error norm = 8.037063e-04
+jacobi: iterations = 310, error norm = 7.770989e-04
+jacobi: iterations = 320, error norm = 7.535083e-04
+jacobi: iterations = 330, error norm = 7.311404e-04
+jacobi: iterations = 340, error norm = 7.097479e-04
+jacobi: iterations = 350, error norm = 6.892841e-04
+jacobi: iterations = 360, error norm = 6.697033e-04
+jacobi: iterations = 370, error norm = 6.518715e-04
+jacobi: iterations = 380, error norm = 6.351107e-04
+jacobi: iterations = 390, error norm = 6.189824e-04
+jacobi: iterations = 400, error norm = 6.034607e-04
+jacobi: iterations = 410, error norm = 5.885201e-04
+jacobi: iterations = 420, error norm = 5.742296e-04
+jacobi: iterations = 430, error norm = 5.612699e-04
+jacobi: iterations = 440, error norm = 5.487379e-04
+jacobi: iterations = 450, error norm = 5.366184e-04
+jacobi: iterations = 460, error norm = 5.248966e-04
+jacobi: iterations = 470, error norm = 5.135578e-04
+jacobi: iterations = 480, error norm = 5.026550e-04
+jacobi: iterations = 490, error norm = 4.926836e-04
+jacobi: iterations = 500, error norm = 4.830019e-04
+jacobi: iterations = 510, error norm = 4.736009e-04
+Exiting jacobi; iterations = 512, error norm = 4.717537e-04
+ Mesh Global:1026 x 1026, Local:1026 x 513, Total time = 1.536508
+Proc 0 writing to OUTPUT 
+Proc 1 writing to OUTPUT 
+Mesh (NxM): 1026 x 1026	 Processor grid (px x py): 2 x 2
+Proc-grid (2 x 2), my_id = 0, (row,col)=(0,0) neighbors:(-1, 1, 2, -1) Mesh Global:1026 x 1026, Local:513 x 513
+Proc-grid (2 x 2), my_id = 1, (row,col)=(0,1) neighbors:(0, -1, 3, -1)Proc-grid (2 x 2), my_id = 2, (row,col)=(1,0) neighbors:(-1, 3, -1, 0) Mesh Global:1026 x 1026, Local:513 x 513
+Proc-grid (2 x 2), my_id = 3, (row,col)=(1,1) neighbors:(2, -1, -1, 1) Mesh Global:1026 x 1026, Local:513 x 513
+ Mesh Global:1026 x 1026, Local:513 x 513
+Entering jacobi; iterations = 0, error norm = 2.500000e-01
+jacobi: iterations = 10, error norm = 2.156258e-02
+jacobi: iterations = 20, error norm = 1.148877e-02
+jacobi: iterations = 30, error norm = 7.825633e-03
+jacobi: iterations = 40, error norm = 5.856636e-03
+jacobi: iterations = 50, error norm = 4.751460e-03
+jacobi: iterations = 60, error norm = 3.945221e-03
+jacobi: iterations = 70, error norm = 3.411966e-03
+jacobi: iterations = 80, error norm = 2.979695e-03
+jacobi: iterations = 90, error norm = 2.658070e-03
+jacobi: iterations = 100, error norm = 2.397062e-03
+jacobi: iterations = 110, error norm = 2.173048e-03
+jacobi: iterations = 120, error norm = 1.999677e-03
+jacobi: iterations = 130, error norm = 1.847977e-03
+jacobi: iterations = 140, error norm = 1.713040e-03
+jacobi: iterations = 150, error norm = 1.601436e-03
+jacobi: iterations = 160, error norm = 1.503695e-03
+jacobi: iterations = 170, error norm = 1.414632e-03
+jacobi: iterations = 180, error norm = 1.334154e-03
+jacobi: iterations = 190, error norm = 1.266784e-03
+jacobi: iterations = 200, error norm = 1.204320e-03
+jacobi: iterations = 210, error norm = 1.146378e-03
+jacobi: iterations = 220, error norm = 1.093055e-03
+jacobi: iterations = 230, error norm = 1.047330e-03
+jacobi: iterations = 240, error norm = 1.004373e-03
+jacobi: iterations = 250, error norm = 9.640058e-04
+jacobi: iterations = 260, error norm = 9.260519e-04
+jacobi: iterations = 270, error norm = 8.923459e-04
+jacobi: iterations = 280, error norm = 8.612421e-04
+jacobi: iterations = 290, error norm = 8.317252e-04
+jacobi: iterations = 300, error norm = 8.037063e-04
+jacobi: iterations = 310, error norm = 7.770989e-04
+jacobi: iterations = 320, error norm = 7.535083e-04
+jacobi: iterations = 330, error norm = 7.311404e-04
+jacobi: iterations = 340, error norm = 7.097479e-04
+jacobi: iterations = 350, error norm = 6.892841e-04
+jacobi: iterations = 360, error norm = 6.697033e-04
+jacobi: iterations = 370, error norm = 6.518715e-04
+jacobi: iterations = 380, error norm = 6.351107e-04
+jacobi: iterations = 390, error norm = 6.189824e-04
+jacobi: iterations = 400, error norm = 6.034607e-04
+jacobi: iterations = 410, error norm = 5.885201e-04
+jacobi: iterations = 420, error norm = 5.742296e-04
+jacobi: iterations = 430, error norm = 5.612699e-04
+jacobi: iterations = 440, error norm = 5.487379e-04
+jacobi: iterations = 450, error norm = 5.366184e-04
+jacobi: iterations = 460, error norm = 5.248966e-04
+jacobi: iterations = 470, error norm = 5.135578e-04
+jacobi: iterations = 480, error norm = 5.026550e-04
+jacobi: iterations = 490, error norm = 4.926836e-04
+jacobi: iterations = 500, error norm = 4.830019e-04
+jacobi: iterations = 510, error norm = 4.736009e-04
+Exiting jacobi; iterations = 512, error norm = 4.717537e-04
+ Mesh Global:1026 x 1026, Local:513 x 513, Total time = 1.741306
+Proc 0 writing to OUTPUT 
+Proc 1 writing to OUTPUT 
+Proc 2 writing to OUTPUT 
+Proc 3 writing to OUTPUT 
+Mesh (NxM): 1026 x 1026	 Processor grid (px x py): 2 x 4
+Proc-grid (2 x 4), my_id = 0, (row,col)=(0,0) neighbors:(-1, 1, 2, -1) Mesh Global:1026 x 1026, Local:513 x 257
+Proc-grid (2 x 4), my_id = 4, (row,col)=(2,0) neighbors:(-1, 5, 6, 2) Mesh Global:1026 x 1026, Local:513 x 256
+Proc-grid (2 x 4), my_id = 1, (row,col)=(0,1) neighbors:(0, -1, 3, -1) Mesh Global:1026 x 1026, Local:513 x 257
+Proc-grid (2 x 4), my_id = 5, (row,col)=(2,1) neighbors:(4, -1, 7, 3) Mesh Global:1026 x 1026, Local:513 x 256
+Proc-grid (2 x 4), my_id = 2, (row,col)=(1,0) neighbors:(-1, 3, 4, 0) Mesh Global:1026 x 1026, Local:513 x 257
+Proc-grid (2 x 4), my_id = 6, (row,col)=(3,0) neighbors:(-1, 7, -1, 4) Mesh Global:1026 x 1026, Local:513 x 256
+Proc-grid (2 x 4), my_id = 3, (row,col)=(1,1) neighbors:(2, -1, 5, 1) Mesh Global:1026 x 1026, Local:513 x 257
+Proc-grid (2 x 4), my_id = 7, (row,col)=(3,1) neighbors:(6, -1, -1, 5) Mesh Global:1026 x 1026, Local:513 x 256
+Entering jacobi; iterations = 0, error norm = 2.500000e-01
+jacobi: iterations = 10, error norm = 2.156258e-02
+jacobi: iterations = 20, error norm = 1.148877e-02
+jacobi: iterations = 30, error norm = 7.825633e-03
+jacobi: iterations = 40, error norm = 5.856636e-03
+jacobi: iterations = 50, error norm = 4.751460e-03
+jacobi: iterations = 60, error norm = 3.945221e-03
+jacobi: iterations = 70, error norm = 3.411966e-03
+jacobi: iterations = 80, error norm = 2.979695e-03
+jacobi: iterations = 90, error norm = 2.658070e-03
+jacobi: iterations = 100, error norm = 2.397062e-03
+jacobi: iterations = 110, error norm = 2.173048e-03
+jacobi: iterations = 120, error norm = 1.999677e-03
+jacobi: iterations = 130, error norm = 1.847977e-03
+jacobi: iterations = 140, error norm = 1.713040e-03
+jacobi: iterations = 150, error norm = 1.601436e-03
+jacobi: iterations = 160, error norm = 1.503695e-03
+jacobi: iterations = 170, error norm = 1.414632e-03
+jacobi: iterations = 180, error norm = 1.334154e-03
+jacobi: iterations = 190, error norm = 1.266784e-03
+jacobi: iterations = 200, error norm = 1.204320e-03
+jacobi: iterations = 210, error norm = 1.146378e-03
+jacobi: iterations = 220, error norm = 1.093055e-03
+jacobi: iterations = 230, error norm = 1.047330e-03
+jacobi: iterations = 240, error norm = 1.004373e-03
+jacobi: iterations = 250, error norm = 9.640058e-04
+jacobi: iterations = 260, error norm = 9.260519e-04
+jacobi: iterations = 270, error norm = 8.923459e-04
+jacobi: iterations = 280, error norm = 8.612421e-04
+jacobi: iterations = 290, error norm = 8.317252e-04
+jacobi: iterations = 300, error norm = 8.037063e-04
+jacobi: iterations = 310, error norm = 7.770989e-04
+jacobi: iterations = 320, error norm = 7.535083e-04
+jacobi: iterations = 330, error norm = 7.311404e-04
+jacobi: iterations = 340, error norm = 7.097479e-04
+jacobi: iterations = 350, error norm = 6.892841e-04
+jacobi: iterations = 360, error norm = 6.697033e-04
+jacobi: iterations = 370, error norm = 6.518715e-04
+jacobi: iterations = 380, error norm = 6.351107e-04
+jacobi: iterations = 390, error norm = 6.189824e-04
+jacobi: iterations = 400, error norm = 6.034607e-04
+jacobi: iterations = 410, error norm = 5.885201e-04
+jacobi: iterations = 420, error norm = 5.742296e-04
+jacobi: iterations = 430, error norm = 5.612699e-04
+jacobi: iterations = 440, error norm = 5.487379e-04
+jacobi: iterations = 450, error norm = 5.366184e-04
+jacobi: iterations = 460, error norm = 5.248966e-04
+jacobi: iterations = 470, error norm = 5.135578e-04
+jacobi: iterations = 480, error norm = 5.026550e-04
+jacobi: iterations = 490, error norm = 4.926836e-04
+jacobi: iterations = 500, error norm = 4.830019e-04
+jacobi: iterations = 510, error norm = 4.736009e-04
+Exiting jacobi; iterations = 512, error norm = 4.717537e-04
+ Mesh Global:1026 x 1026, Local:513 x 257, Total time = 0.842389
+Proc 0 writing to OUTPUT 
+Proc 1 writing to OUTPUT 
+Proc 2 writing to OUTPUT 
+Proc 3 writing to OUTPUT 
+Proc 4 writing to OUTPUT 
+Proc 5 writing to OUTPUT 
+Proc 6 writing to OUTPUT 
+Proc 7 writing to OUTPUT 
+Mesh (NxM): 1026 x 1026	 Processor grid (px x py): 4 x 4
+Proc-grid (4 x 4), my_id = 4, (row,col)=(1,0) neighbors:(-1, 5, 8, 0) Mesh Global:1026 x 1026, Local:257 x 257
+Proc-grid (4 x 4), my_id = 0, (row,col)=(0,0) neighbors:(-1, 1, 4, -1) Mesh Global:1026 x 1026, Local:257 x 257
+Proc-grid (4 x 4), my_id = 8, (row,col)=(2,0) neighbors:(-1, 9, 12, 4) Mesh Global:1026 x 1026, Local:257 x 256
+Proc-grid (4 x 4), my_id = 5, (row,col)=(1,1) neighbors:(4, 6, 9, 1) Mesh Global:1026 x 1026, Local:257 x 257
+Proc-grid (4 x 4), my_id = 1, (row,col)=(0,1) neighbors:(0, 2, 5, -1) Mesh Global:1026 x 1026, Local:257 x 257
+Proc-grid (4 x 4), my_id = 9, (row,col)=(2,1) neighbors:(8, 10, 13, 5) Mesh Global:1026 x 1026, Local:257 x 256
+Proc-grid (4 x 4), my_id = 6, (row,col)=(1,2) neighbors:(5, 7, 10, 2) Mesh Global:1026 x 1026, Local:256 x 257
+Proc-grid (4 x 4), my_id = 2, (row,col)=(0,2) neighbors:(1, 3, 6, -1) Mesh Global:1026 x 1026, Local:256 x 257
+Proc-grid (4 x 4), my_id = 10, (row,col)=(2,2) neighbors:(9, 11, 14, 6) Mesh Global:1026 x 1026, Local:256 x 256
+Proc-grid (4 x 4), my_id = 7, (row,col)=(1,3) neighbors:(6, -1, 11, 3) Mesh Global:1026 x 1026, Local:256 x 257
+Proc-grid (4 x 4), my_id = 3, (row,col)=(0,3) neighbors:(2, -1, 7, -1) Mesh Global:1026 x 1026, Local:256 x 257
+Proc-grid (4 x 4), my_id = 11, (row,col)=(2,3) neighbors:(10, -1, 15, 7) Mesh Global:1026 x 1026, Local:256 x 256
+Proc-grid (4 x 4), my_id = 12, (row,col)=(3,0)Proc-grid (4 x 4), my_id = 13, (row,col)=(3,1) neighbors:(12, 14, -1, 9) Mesh Global:1026 x 1026, Local:257 x 256
+Proc-grid (4 x 4), my_id = 14, (row,col)=(3,2) neighbors:(13, 15, -1, 10) Mesh Global:1026 x 1026, Local:256 x 256
+Proc-grid (4 x 4), my_id = 15, (row,col)=(3,3) neighbors:(14, -1, -1, 11) Mesh Global:1026 x 1026, Local:256 x 256
+ neighbors:(-1, 13, -1, 8) Mesh Global:1026 x 1026, Local:257 x 256
+Entering jacobi; iterations = 0, error norm = 2.500000e-01
+jacobi: iterations = 10, error norm = 2.156258e-02
+jacobi: iterations = 20, error norm = 1.148877e-02
+jacobi: iterations = 30, error norm = 7.825633e-03
+jacobi: iterations = 40, error norm = 5.856636e-03
+jacobi: iterations = 50, error norm = 4.751460e-03
+jacobi: iterations = 60, error norm = 3.945221e-03
+jacobi: iterations = 70, error norm = 3.411966e-03
+jacobi: iterations = 80, error norm = 2.979695e-03
+jacobi: iterations = 90, error norm = 2.658070e-03
+jacobi: iterations = 100, error norm = 2.397062e-03
+jacobi: iterations = 110, error norm = 2.173048e-03
+jacobi: iterations = 120, error norm = 1.999677e-03
+jacobi: iterations = 130, error norm = 1.847977e-03
+jacobi: iterations = 140, error norm = 1.713040e-03
+jacobi: iterations = 150, error norm = 1.601436e-03
+jacobi: iterations = 160, error norm = 1.503695e-03
+jacobi: iterations = 170, error norm = 1.414632e-03
+jacobi: iterations = 180, error norm = 1.334154e-03
+jacobi: iterations = 190, error norm = 1.266784e-03
+jacobi: iterations = 200, error norm = 1.204320e-03
+jacobi: iterations = 210, error norm = 1.146378e-03
+jacobi: iterations = 220, error norm = 1.093055e-03
+jacobi: iterations = 230, error norm = 1.047330e-03
+jacobi: iterations = 240, error norm = 1.004373e-03
+jacobi: iterations = 250, error norm = 9.640058e-04
+jacobi: iterations = 260, error norm = 9.260519e-04
+jacobi: iterations = 270, error norm = 8.923459e-04
+jacobi: iterations = 280, error norm = 8.612421e-04
+jacobi: iterations = 290, error norm = 8.317252e-04
+jacobi: iterations = 300, error norm = 8.037063e-04
+jacobi: iterations = 310, error norm = 7.770989e-04
+jacobi: iterations = 320, error norm = 7.535083e-04
+jacobi: iterations = 330, error norm = 7.311404e-04
+jacobi: iterations = 340, error norm = 7.097479e-04
+jacobi: iterations = 350, error norm = 6.892841e-04
+jacobi: iterations = 360, error norm = 6.697033e-04
+jacobi: iterations = 370, error norm = 6.518715e-04
+jacobi: iterations = 380, error norm = 6.351107e-04
+jacobi: iterations = 390, error norm = 6.189824e-04
+jacobi: iterations = 400, error norm = 6.034607e-04
+jacobi: iterations = 410, error norm = 5.885201e-04
+jacobi: iterations = 420, error norm = 5.742296e-04
+jacobi: iterations = 430, error norm = 5.612699e-04
+jacobi: iterations = 440, error norm = 5.487379e-04
+jacobi: iterations = 450, error norm = 5.366184e-04
+jacobi: iterations = 460, error norm = 5.248966e-04
+jacobi: iterations = 470, error norm = 5.135578e-04
+jacobi: iterations = 480, error norm = 5.026550e-04
+jacobi: iterations = 490, error norm = 4.926836e-04
+jacobi: iterations = 500, error norm = 4.830019e-04
+jacobi: iterations = 510, error norm = 4.736009e-04
+Exiting jacobi; iterations = 512, error norm = 4.717537e-04
+ Mesh Global:1026 x 1026, Local:257 x 257, Total time = 0.452125
+Proc 0 writing to OUTPUT 
+Proc 1 writing to OUTPUT 
+Proc 2 writing to OUTPUT 
+Proc 3 writing to OUTPUT 
+Proc 4 writing to OUTPUT 
+Proc 5 writing to OUTPUT 
+Proc 6 writing to OUTPUT 
+Proc 7 writing to OUTPUT 
+Proc 8 writing to OUTPUT 
+Proc 9 writing to OUTPUT 
+Proc 10 writing to OUTPUT 
+Proc 11 writing to OUTPUT 
+Proc 12 writing to OUTPUT 
+Proc 13 writing to OUTPUT 
+Proc 14 writing to OUTPUT 
+Proc 15 writing to OUTPUT 
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@nxt1335>
+Subject: Job 6282104: <parallel_jacobi> in cluster <Main_Compute> Done
+
+Job <parallel_jacobi> was submitted from host <login8> by user <thesaurabh> in cluster <Main_Compute>.
+Job was executed on host(s) <4*nxt1335>, in queue <mn_short>, as user <thesaurabh> in cluster <Main_Compute>.
+                            <4*nxt1915>
+                            <4*nxt1223>
+                            <4*nxt1225>
+                            <4*nxt1438>
+                            <4*nxt1953>
+                            <4*nxt1444>
+                            <4*nxt1828>
+                            <4*nxt1829>
+                            <4*nxt1366>
+                            <4*nxt1660>
+                            <4*nxt1310>
+                            <4*nxt2143>
+                            <4*nxt1319>
+                            <4*nxt1911>
+                            <4*nxt2021>
+</home/thesaurabh> was used as the home directory.
+</home/thesaurabh/HW2> was used as the working directory.
+Started at Tue Oct 10 22:16:02 2017
+Results reported on Tue Oct 10 22:16:37 2017
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#BSUB -n 64 -R 'select[nxt] rusage[mem=1024] span[ptile=4]' -M 1024
+#BSUB -J parallel_jacobi -o output.%J -L /bin/bash -W 0:30
+##
+##BSUB -W hh:mm                  # sets job's runtime wall-clock limit in hours:minutes or just minutes (-mm).
+##BSUB -n NNN                    # NNN: total number of cores/jobslots to allocate for the job
+##BSUB -R "span[ptile=XX]"       # XX:  number of cores/jobslots per node to use. Also, a node selection criterion
+##BSUB -R "select[node-type]"    # node-type: nxt, mem256gb, gpu, phi, mem1t, mem2t ...
+##BSUB -R "rusage[mem=nnn]"      # reserves nnn MBs per process/CPU for the job
+##BSUB -M mm                     # sets the per process enforceable memory limit to nnn MB
+##
+## <--- at this point the current working directory is the one you submitted the job from.
+##
+module load intel/2017A       # load Intel software stack 
+#
+##Unedited single processor run
+##mpirun -np 1 ./single 64 64 1 1
+#
+####Part 1 run
+##mpirun -np 2 ./myexe 1026 1026 2 1
+##mpirun -np 6 ./myexe 1026 1026 2 3
+##mpirun -np 16 ./myexe 1026 1026 4 4
+
+
+####Part 2_1 run
+##mpirun -np 1 ./myexe 1026 1026 1 1
+##mpirun -np 2 ./myexe 1026 1026 2 1
+##mpirun -np 4 ./myexe 1026 1026 4 1
+##mpirun -np 8 ./myexe 1026 1026 8 1
+##mpirun -np 16 ./myexe 1026 1026 16 1
+
+##Part 2_2 run
+mpirun -np 1 ./myexe 1026 1026 1 1
+mpirun -np 2 ./myexe 1026 1026 1 2
+mpirun -np 4 ./myexe 1026 1026 2 2
+mpirun -np 8 ./myexe 1026 1026 2 4
+mpirun -np 16 ./myexe 1026 1026 4 4
+
+
+
+
+##mpirun -np 2 ./parallel_jacobi_2d_laplace.exe 64 64 2 1
+##mpirun -np 4 ./parallel_jacobi_2d_laplace.exe 64 64 2 2
+##mpirun -np 8 ./parallel_jacobi_2d_laplace.exe 64 64 4 2
+##mpirun -np 16 ./parallel_jacobi_2d_laplace.exe 64 64 4 4
+##mpirun -np 16 ./parallel_jacobi_2d_laplace.exe 64 64 16 1
+
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   58.18 sec.
+    Max Memory :                                 221 MB
+    Average Memory :                             14.33 MB
+    Total Requested Memory :                     65536.00 MB
+    Delta Memory :                               65315.00 MB
+    Max Processes :                              7
+    Max Threads :                                9
+
+The output (if any) is above this job summary.
+
